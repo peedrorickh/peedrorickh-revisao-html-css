@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+body{
+    background-color:rgba(129, 162, 247,0.8);
+    color: rgba(0,0,0,1);
+}
+header#cabecalho{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	margin: 40px auto 0px auto;
+	background-color: white;
+	padding: 7px 7px 7px 7px;
+	box-shadow: 1px 1px 4px black;
+	
+}
+header#cabecalho h3{
+	position:static;
+	margin-bottom: 0px;
+
+}
+
+div#interface{
+	width: 900px;
+	background-color: #ffffff;
+	margin: 40px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	padding: 100px 100px 100px 100px;
+	display: flex;
+	justify-content: center;
+	border-top: 10px #606060 solid;
+	border-bottom: 10px #606060 solid;
+	
+    
+}
+div#interface h2{
+	position: absolute;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	margin: -60px 50px 0px 190;
+	
+	
+}
+
+img#icone{
+	position: absolute;
+	top:37px;
+
+}
+
+
+/*Formatting photos*/
+
+figure.foto-legenda{
+	position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+figure.foto-legenda figcaption{
+	position: absolute;
+}
+figure.foto-legenda:hover{
+	-webkit-transform: scale(1.2);
+	transition: 2s;
+}
+
+
+
