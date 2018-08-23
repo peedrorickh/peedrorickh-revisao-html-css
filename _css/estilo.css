@@ -26,7 +26,7 @@ div#interface{
 	background-color: #ffffff;
 	margin: 40px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	padding: 100px 100px 100px 100px;
+	padding: 100px 400px 200px 200px;
 	display: flex;
 	justify-content: center;
 	border-top: 10px #606060 solid;
@@ -35,11 +35,13 @@ div#interface{
 	
     
 }
-div#interface h2{
-	position: absolute;
+div#interface header#produtosemdestaque{
+	position: relative;
 	text-align: center;
 	font-family: 'Slabo 27px', serif;
 	margin: -60px 50px 0px 70;
+	left: 280;
+	top: -30px;
 	
 	
 }
@@ -54,7 +56,7 @@ img#icone{
 /*Formatting photos*/
 
 figure.foto-legenda img{
-	left: -175;
+	left: -385;
 	position: relative;
     border: 8px solid white;
 	box-shadow: 1px 1px 4px black;
@@ -67,7 +69,18 @@ figure.foto-legenda:hover{
 	transition: 2s;
 }
 
+figcaption#teste{
+	border-bottom: 1px #606060 solid;
+	left: -180;
+	top: -280;
+	text-align: center;
+	position: relative;
+}
+
 /*Conteudo lateral */
+
+
+
 
 figure.foto-legenda-lateral img{
 	left: -175;
@@ -80,15 +93,21 @@ figure.foto-legenda-lateral:hover{
 	-webkit-transform: scale(1.1);
 	transition: 2s;
 }
-figure.foto-legenda-lateral figcaption{
-	
+aside#lateral{
+    display: block;
+    width: 490px;
+    float: right;
 }
 
+
+
 div#informacoes{
-	padding: 5px 100px 5px 150px;
+	position: relative;
+	padding: 5px 80px 5px 350px;
 	border: 3px solid white;
 	box-shadow: 1px 1px 4px black;
-	margin-left: -380px;
+	margin-left: -160px;
+	margin-right: 10;
 	
 
 }
@@ -100,6 +119,7 @@ div#informacoes h1{
 
 }
 div#informacoes-lateral{
+	position: relative;
 	padding: 5px 80px 5px 150px;
 	border: 3px solid white;
 	box-shadow: 1px 1px 4px black;
@@ -115,5 +135,53 @@ footer#rodape{
 	box-shadow: 1px 1px 4px black;
 	margin: 40px auto 0px auto;
 	font-size: 14px;
+	
+}
+
+
+div#informacoes header{
+	position: absolute;
+	top: 70;
+	left: 270;
+	text-align: center;
+	
+}
+div#informacoes header#artemis{
+	position: absolute;
+	top: 70;
+	left: 330;
+	text-align: center;
+	
+}
+div#informacoes header h1#precolivroartemis{
+	left: -20;
+	top: 210;
+	border-bottom: 1px #606060 solid;
+}
+
+div#informacoes header h1#precolivro{
+	left: 30;
+	top: 210;
+	border-bottom: 1px #606060 solid;
+}
+
+div#informacoes-lateral header{
+	position: absolute;
+	top: 70;
+	right: 70;
+	text-align: center;
+	
+}
+div#informacoes-lateral header h1#precolivro{
+	position: absolute;
+	right: 130;
+	top: 100;
+	border-bottom: 1px #606060 solid;
+}
+div#informacoes-lateral header#artemis{
+	position: absolute;
+	top: 70;
+	left: 250;
+	text-align: center;
 	
 }
