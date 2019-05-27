@@ -31,7 +31,7 @@ div#interface{
 	justify-content: center;
 	border-top: 10px #606060 solid;
 	border-bottom: 10px #606060 solid;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	
     
 }
@@ -69,13 +69,13 @@ figure.foto-legenda:hover{
 	transition: 2s;
 }
 
-figcaption#teste{
+/*figcaption#teste{
 	border-bottom: 1px #606060 solid;
 	left: -180;
 	top: -280;
 	text-align: center;
 	position: relative;
-}
+}*/
 
 /*Conteudo lateral */
 
@@ -85,7 +85,7 @@ figcaption#teste{
 figure.foto-legenda-lateral img{
 	left: -175;
 	position: relative;
-    border: 8px solid white;
+	border: 4px solid white;
 	box-shadow: 1px 1px 4px black;
 }
 
@@ -116,6 +116,8 @@ div#informacoes h1{
 	text-align: center;
 	margin-top: -100px;
 	margin-left: 80px;
+	
+	
 
 }
 div#informacoes-lateral{
@@ -125,6 +127,8 @@ div#informacoes-lateral{
 	box-shadow: 1px 1px 4px black;
 	margin-right: -350px;
 	margin-left: 20px;
+	margin-top: 10px;
+	
 
 }
 
